@@ -17,3 +17,6 @@ header{color:var(--navy);border-bottom:1px solid #e3e7ee;box-shadow:0 1px 8px #1
 .menu{color:var(--navy)!important;border-color:#c9d3e0!important}
 .btn{color:#fff}.btn.ghost{color:#fff}.btn.ghostnav,.btn.ghost.dark{color:var(--navy)}
 .links a.btn[aria-current=page]{color:#fff}
+/* Launch offer: 1 Month FREE trial, then ₹10/employee/month */
+.offer-bar{background:linear-gradient(90deg,#14284b,#2f6fb5);color:#fff;font-size:13px}.offer-inner{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding-top:9px;padding-bottom:9px;text-align:center}.offer-tag{display:inline-block;background:#fff;color:#14284b;font-weight:bold;font-size:10px;letter-spacing:2px;padding:3px 8px}.offer-link{border-bottom:1px solid #ffffff90;font-weight:bold;white-space:nowrap}.offer-link:hover{border-color:#fff}
+.offer-badge{display:inline-block;background:#fff;color:var(--navy);font-weight:bold;font-size:10px;letter-spacing:2px;padding:4px 10px;margin-bottom:10px}.offer-hl{color:#fff}.hero-offer{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:18px 0 0;padding:8px 14px;border:1px solid #ffffff40;font-size:13px}
