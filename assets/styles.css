@@ -23,3 +23,32 @@ header{color:var(--navy);border-bottom:1px solid #e3e7ee;box-shadow:0 1px 8px #1
 .visitor-strip{margin-top:16px;padding-top:14px;border-top:1px solid #ffffff15;text-align:center;font-size:11px;letter-spacing:.08em;color:#a8b4bc}
 
 .btn.ghost.light{color:#fff;border-color:#ffffffb0;background:transparent}.btn.ghost.light:hover{background:#ffffff14}
+
+/* Site refresh: affordability contrast + 5-step start journey + contact office map */
+.hero-sublink{display:inline-block;margin-top:4px;font-size:12px;color:#b8d0eb;border-bottom:1px solid #ffffff50;padding-bottom:3px}
+.hero-sublink:hover{color:#fff;border-color:#fff}
+.hero-offer{margin-bottom:14px}
+.contrast{background:#eaece6}
+.contrast-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:34px;align-items:stretch}
+.contrast-card{background:var(--paper);border:1px solid var(--line);padding:34px;display:flex;flex-direction:column}
+.contrast-card.novature{background:var(--navy);color:#fff;border-color:var(--navy)}
+.contrast-card h3{font:26px/1.2 Georgia,serif;margin:14px 0 16px}
+.contrast-card.novature h3{color:#fff}
+.contrast-list{margin:0;padding:0;list-style:none;display:grid;gap:12px;font-size:14px}
+.contrast-list li{padding-left:22px;position:relative;color:#556168}
+.contrast-card.novature .contrast-list li{color:#d3dde7}
+.contrast-list li:before{content:'—';position:absolute;left:0;color:#8c969c;font-weight:bold}
+.contrast-card.novature .contrast-list li:before{content:'✓';color:#7fb5f5}
+.contrast-tag{display:inline-block;align-self:flex-start;padding:4px 10px;font-size:10px;letter-spacing:2px;font-weight:bold;border:1px solid #c9cfca;color:#626e75}
+.contrast-card.novature .contrast-tag{background:#fff;color:var(--navy);border-color:#fff}
+.contrast-foot{margin-top:auto;padding-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+.journey{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:36px}
+.jstep{background:#fff;border:1px solid var(--line);padding:24px 20px;display:flex;flex-direction:column}
+.jstep .num{font:26px Georgia,serif;color:var(--gold);margin-bottom:10px}
+.jstep h3{font:17px/1.3 Georgia,serif;margin:0 0 10px;color:var(--navy)}
+.jstep p{font-size:13px;color:#637077;margin:0 0 14px}
+.jstep .textlink{margin-top:auto;align-self:flex-start}
+.journey-links{display:flex;flex-wrap:wrap;align-items:center;gap:16px 26px;margin-top:30px}
+.callout-actions{display:flex;flex-wrap:wrap;gap:12px;flex-shrink:0}
+@media(max-width:1050px){.journey{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.contrast-grid,.journey{grid-template-columns:1fr}.contrast-card{padding:24px}}
